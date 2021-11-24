@@ -11,7 +11,9 @@ function ProfileCard() {
         role: 'Front end developer',
         address: "Central Jakarta",
         phonenum: "082283977951",
-        github: "https://github.com/hairunisa29"
+        github: "https://github.com/hairunisa29",
+        behance: "https://www.behance.net/hairunisa",
+        linkedin: "https://www.linkedin.com/in/hairunisa2909/"
     }
 
 
@@ -41,9 +43,23 @@ function ProfileCard() {
                   <i className="nav-icon fa fa-phone-square"></i>
                   <span className="phonenumdetail">{data.phonenum}</span>
                 </div>
-                <div className="pt-2">
-                    <a href={data.github} className='github'><i className="nav-icon fa fa-github-square"></i></a>
+                <div className="row">
+                    <div className='col'>
+                        <a href={data.github} className='github'><i className="nav-icon fa fa-github-square"></i></a>
+                        <a href={data.behance} className='behance'><i className="nav-icon fa fa-behance-square"></i></a>
+                        <a href={data.linkedin} className='behance'><i className="nav-icon fa fa-linkedin-square"></i></a>
+                    </div>
+                    {/* <div className='col'>
+                        
+                    </div>
+                    <div className='col'>
+                        
+                    </div>
+                     */}
                 </div>
+               
+                   
+                
             </div>
         </div>
     )

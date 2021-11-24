@@ -103,5 +103,25 @@
     font-size: 20px;
     font-weight: 700;
     color: #272727;
+    margin: 8px;
 
 }
+
+.behance {
+    font-size: 20px;
+    font-weight: 700;
+    color: #272727;
+    margin: 8px;
+}
+
+.linkedin {
+    font-size: 20px;
+    font-weight: 700;
+    color: #272727;
+    margin: 8px;
+}
+
+.row{
+    margin-top: 10px;
+}
+
